@@ -1,0 +1,303 @@
+@import '../../utils/theme';
+
+.navbar {
+    height: 30px;
+    background-color: $primary_color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3em;
+    
+    .brand{
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .navRight{
+        display: flex;
+        align-items: center;
+    }
+
+    .navLinks{
+        margin: 0 20px;
+
+        a{
+            font-size: 14px;
+            color: white;
+            font-weight: 600px;
+            text-decoration: none;
+        }
+    }
+}
+
+.banner{
+    height: 150px;
+    background-color: lighten($primary_color, 20%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h3{
+        margin: 0; 
+        color: white;
+    }
+
+    p{
+        margin: 10px 0;
+        color: rgba(white, 0.5);
+    }
+
+    .searchBlog{
+        width: 100%;
+
+        input{
+            width: 100%;
+            max-width: 600px;
+            height: 30px;
+            display: block;
+            margin: 0 auto;
+            padding: 0 0px;
+            text-align: center;
+        }
+    }
+}
+
+.blogListContainer{
+    display: flex;
+    justify-content: space-between; 
+    padding: 5px;
+
+    .blogList{
+        margin-left: 20vw;
+        width: 40vw;
+        padding: 0px;
+    }
+
+    .blogExtras{
+        display: flex;
+        width: 20vw;
+        flex-direction: column;
+        margin-right: 5vw;
+
+
+        h4{
+            margin-left: 20px;
+            margin-bottom: 0px;
+
+        }
+    }
+}
+
+.blogCard{
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 13px lighten($color: gray, $amount: 25);
+    width: 40vw;
+
+    img{
+        padding: 4px;
+        max-width: 7vw;
+        height: auto;
+    }
+
+    .blogContent{
+        padding: 10px;
+        margin-right: 3px;
+        width:70%;
+        height: auto;
+
+        .blogTitle{
+            color: lighten($primary_color, 20%);
+            font-weight: bold;
+            width: 100%;
+        }
+
+        p{
+            margin-bottom: 0px;
+        }
+
+        button{
+            color: white;
+            background-color: lighten($color: red, $amount: 20);
+            border-radius: 6px;
+            border: none;
+            padding: 4px;
+            font-weight: bold;
+        }
+
+        .footer{
+            margin-top: 20%;
+            color: lighten(gray, 5%);
+        }
+    }
+}
+
+.blogCardExtras{
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 13px lighten($color: gray, $amount: 25);
+    width: 20vw;
+
+    img{
+        padding: 4px;
+        max-width: 4vw;
+        height: auto;
+    }
+
+    .blogContent{
+        padding: 10px;
+        margin-right: 3px;
+        width:70%;
+        height: auto;
+
+        .blogTitle{
+            color: lighten($primary_color, 20%);
+            font-weight: bold;
+            width: 100%;
+        }
+
+        p{
+            margin-bottom: 0px;
+        }
+
+        button{
+            color: white;
+            background-color: lighten($color: red, $amount: 20);
+            border-radius: 6px;
+            border: none;
+            padding: 4px;
+            font-weight: bold;
+        }
+
+        .footer{
+            margin-top: 20%;
+            color: lighten(gray, 5%);
+        }
+    }
+}
+
+.RelatedBlogCard{
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 13px lighten($color: gray, $amount: 25);
+    width: 20vw;
+
+    img{
+        padding: 4px;
+        max-width: 4vw;
+        height: auto;
+    }
+
+    .blogContent{
+        padding: 10px;
+        margin-right: 3px;
+        width:70%;
+        height: auto;
+
+        .blogTitle{
+            color: lighten($primary_color, 20%);
+            font-weight: bold;
+            width: 100%;
+        }
+
+        p{
+            margin-bottom: 0px;
+        }
+
+        button{
+            color: white;
+            background-color: lighten($color: red, $amount: 20);
+            border-radius: 6px;
+            border: none;
+            padding: 4px;
+            font-weight: bold;
+        }
+
+        .footer{
+            margin-top: 20%;
+            color: lighten(gray, 5%);
+        }
+    }
+}
+
+.detailOverlay{
+    display: flex;
+    justify-content: space-between; 
+    padding: 5px;
+    
+    .blogDetailOverlay{
+        width: 60vw;
+        display: flex;
+        //align-items: center;
+        margin-left: 10vw;
+        flex-direction: column;
+        
+
+
+        .imageOverlay{
+            background-repeat: no-repeat;
+            //background-size: contain;
+            background-size:auto 100% ;
+            height: 700px;
+        }
+
+        .imgSkeleton{
+            width: auto;
+            height: 500px;
+        }
+
+        div{
+            width: 50vw;
+    
+            .textContent{
+                display: flex;
+                align-items: center;
+                width: 100%;
+
+                p{
+                    
+                }
+            }
+    
+            .formOverlay{
+                form{
+                    .comment_sent{
+                        color: yellowgreen;
+                        font-weight: bold;
+                        border-right: 2px solid lightgray;
+                        padding-right: 7px;
+                        //display: none;
+                    }
+                }
+            }
+    
+            .comments{
+    
+            }
+        }
+    }
+
+    .realatedBlogs{
+        width: 20vw;
+        display: flex;
+        align-items: center;
+    }
+}
+

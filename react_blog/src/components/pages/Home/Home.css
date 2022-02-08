@@ -1,0 +1,348 @@
+.navbar {
+  height: 30px;
+  background-color: #173F5F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 3em;
+}
+
+.navbar .brand {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar .navRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .navLinks {
+  margin: 0 20px;
+}
+
+.navbar .navLinks a {
+  font-size: 14px;
+  color: white;
+  font-weight: 600px;
+  text-decoration: none;
+}
+
+.banner {
+  height: 150px;
+  background-color: #2b75b1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.banner h3 {
+  margin: 0;
+  color: white;
+}
+
+.banner p {
+  margin: 10px 0;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.banner .searchBlog {
+  width: 100%;
+}
+
+.banner .searchBlog input {
+  width: 100%;
+  max-width: 600px;
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+  padding: 0 0px;
+  text-align: center;
+}
+
+.blogListContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5px;
+}
+
+.blogListContainer .blogList {
+  margin-left: 20vw;
+  width: 40vw;
+  padding: 0px;
+}
+
+.blogListContainer .blogExtras {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 5vw;
+}
+
+.blogListContainer .blogExtras h4 {
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+
+.blogCard {
+  margin-top: 20px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 5px 5px 13px silver;
+          box-shadow: 5px 5px 13px silver;
+  width: 40vw;
+}
+
+.blogCard img {
+  padding: 4px;
+  max-width: 7vw;
+  height: auto;
+}
+
+.blogCard .blogContent {
+  padding: 10px;
+  margin-right: 3px;
+  width: 70%;
+  height: auto;
+}
+
+.blogCard .blogContent .blogTitle {
+  color: #2b75b1;
+  font-weight: bold;
+  width: 100%;
+}
+
+.blogCard .blogContent p {
+  margin-bottom: 0px;
+}
+
+.blogCard .blogContent button {
+  color: white;
+  background-color: #ff6666;
+  border-radius: 6px;
+  border: none;
+  padding: 4px;
+  font-weight: bold;
+}
+
+.blogCard .blogContent .footer {
+  margin-top: 20%;
+  color: #8d8d8d;
+}
+
+.blogCardExtras {
+  margin-top: 20px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 5px 5px 13px silver;
+          box-shadow: 5px 5px 13px silver;
+  width: 20vw;
+}
+
+.blogCardExtras img {
+  padding: 4px;
+  max-width: 4vw;
+  height: auto;
+}
+
+.blogCardExtras .blogContent {
+  padding: 10px;
+  margin-right: 3px;
+  width: 70%;
+  height: auto;
+}
+
+.blogCardExtras .blogContent .blogTitle {
+  color: #2b75b1;
+  font-weight: bold;
+  width: 100%;
+}
+
+.blogCardExtras .blogContent p {
+  margin-bottom: 0px;
+}
+
+.blogCardExtras .blogContent button {
+  color: white;
+  background-color: #ff6666;
+  border-radius: 6px;
+  border: none;
+  padding: 4px;
+  font-weight: bold;
+}
+
+.blogCardExtras .blogContent .footer {
+  margin-top: 20%;
+  color: #8d8d8d;
+}
+
+.RelatedBlogCard {
+  margin-top: 20px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 5px 5px 13px silver;
+          box-shadow: 5px 5px 13px silver;
+  width: 20vw;
+}
+
+.RelatedBlogCard img {
+  padding: 4px;
+  max-width: 4vw;
+  height: auto;
+}
+
+.RelatedBlogCard .blogContent {
+  padding: 10px;
+  margin-right: 3px;
+  width: 70%;
+  height: auto;
+}
+
+.RelatedBlogCard .blogContent .blogTitle {
+  color: #2b75b1;
+  font-weight: bold;
+  width: 100%;
+}
+
+.RelatedBlogCard .blogContent p {
+  margin-bottom: 0px;
+}
+
+.RelatedBlogCard .blogContent button {
+  color: white;
+  background-color: #ff6666;
+  border-radius: 6px;
+  border: none;
+  padding: 4px;
+  font-weight: bold;
+}
+
+.RelatedBlogCard .blogContent .footer {
+  margin-top: 20%;
+  color: #8d8d8d;
+}
+
+.detailOverlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5px;
+}
+
+.detailOverlay .blogDetailOverlay {
+  width: 60vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 10vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.detailOverlay .blogDetailOverlay .imageOverlay {
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  height: 700px;
+}
+
+.detailOverlay .blogDetailOverlay .imgSkeleton {
+  width: auto;
+  height: 500px;
+}
+
+.detailOverlay .blogDetailOverlay div {
+  width: 50vw;
+}
+
+.detailOverlay .blogDetailOverlay div .textContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.detailOverlay .blogDetailOverlay div .formOverlay form .comment_sent {
+  color: yellowgreen;
+  font-weight: bold;
+  border-right: 2px solid lightgray;
+  padding-right: 7px;
+}
+
+.detailOverlay .realatedBlogs {
+  width: 20vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=Home.css.map */
